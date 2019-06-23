@@ -1,0 +1,1 @@
+insert into site_data_copy select * from site_data where id = 3£»

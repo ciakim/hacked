@@ -1,0 +1,10 @@
+root@slave01:/opt/modules/hbase-1.4.9/bin# cd /opt/modules/hbase-1.4.9/bin
+
+root@slave01:/opt/modules/hbase-1.4.9/bin# ./hbase-daemon.sh start master
+
+running master, logging to /opt/modules/hbase-1.4.9/bin/../logs/hbase-root-master-slave01.out
+root@slave01:/opt/modules/hbase-1.4.9/bin# jps
+1554 HMaster
+563 QuorumPeerMain
+1018 DataNode
+1631 Jps

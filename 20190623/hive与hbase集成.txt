@@ -1,0 +1,8 @@
+CREATE EXTERNAL TABLE hbasetable(key string,id int,device_pid int,property string,value float,datetime timestamp)  STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH SERDEPROPERTIES ("hbase.columns.mapping" = " :key,info:id,info:device_pid,info:property,info:value,info:datetime") TBLPROPERTIES("hbase.table.name" = "some_existing_table", "hbase.mapred.output.outputtable" = "some_existing_table");
+
+
+
+
+
+
+CREATE EXTERNAL TABLE testdb.hivestu(key string, id int,name string,age int)  STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,info:id,info:name,info:age") TBLPROPERTIES("hbase.table.name" = "testdb:student");

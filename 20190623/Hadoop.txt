@@ -1,0 +1,1 @@
+1.hadoop  yarn hdfs mapreduce zookeeper hbase hive sqoop storm 

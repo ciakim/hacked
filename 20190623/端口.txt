@@ -1,0 +1,3 @@
+yarn 8088
+hdfs 50070
+hbase 16010

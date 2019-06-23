@@ -1,0 +1,9 @@
+sqoop import --connect jdbc:mysql://210.44.53.190:3306/wisdom --username root --password mysql@123--table wisdom_data --target-dir /wisdom_data/ -m 5
+
+sqoop import --connect jdbc:mysql://192.168.1.12:3306/hbasedemo --username root --password root506 --table demo --hbase-table demo --hbase-create-table --hbase-row-key id  --column-family info -m 2
+
+sqoop list-databases --connect jdbc:mysql://192.168.1.12:3306 --username root --password root506
+
+sqoop list-tables --connect jdbc:mysql://192.168.1.12:3306/sa --username root --password root506
+
+sqoop import --connect jdbc:mysql://192.168.1.12:3306/hbasedemo --username root --password root506 --table test --hive-import --hive-table test -m 4

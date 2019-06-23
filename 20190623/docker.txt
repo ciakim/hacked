@@ -1,0 +1,22 @@
+FROM centos7-ssh
+ADD jdk-8u201-linux-x64.tar.gz /root
+RUN mv /root/jdk1.8.0_201 /opt/jdk1.8
+ENV JAVA_HOME /opt/jdk1.8
+ENV PATH $JAVA_HOME/bin:$PATH
+
+ADD hadoop-2.8.5.tar.gz /root
+RUN mv /root/hadoop-3.1.0 /opt/hadoop
+ENV HADOOP_HOME /opt/hadoop
+ENV PATH $HADOOP_HOME/bin:$PATH
+
+RUN yum install -y which sudo
+
+--------------------------------------------------------------------------
+
+docker run --name master--add-host master:172.17.0.2 --add-host slave01:172.17.0.3  hadoop
+
+
+
+
+
+
