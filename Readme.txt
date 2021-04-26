@@ -58,4 +58,16 @@ https://github.com/x1080x/dz
 
 http://www.adapticom1.net/
 
+[资源一]https://anonfiles.com/RdP3E8qbu2/links_zip
+[资源二]https://anonfiles.com/N9O8Ecqeu6/links_zip
+[资源三]https://anonfiles.com/n7s3F0qbu5/hbb_zip
+[资源四]https://www.sendspace.com/file/ny6cj8)
+[资源五]https://anonfiles.com/7824kbt2uf/links_zip)
+[资源六]https://anonfiles.com/Ff2aketcu1/openvpn-install-2.4.9-I601-Win10_zip
+[资源七]https://anonfiles.com/dd37kct7ud/WinSvr2008_2019_rar
+[资源八]https://anonfiles.com/1f3akat9ua/_rar
+[资源九]https://anonfiles.com/l545ketdub/data_rar
+[资源十]https://anonfiles.com/t843kdt9uc/QQ_Password_zip
+https://anonfiles.com/5844k8t1ua/Microsoft_Window10_Activation_tool_rar
+
 
